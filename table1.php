@@ -30,7 +30,9 @@ $result = $conn->query($sql);
     <input type="text" name="search" id="search" placeholder="ช่องค้นหา...">
     <button type="submit" name="search_click">ค้นหา</button>
 </form>
-
+<form action="." method="post">
+    <button type="submit" name="logout">ออกจากระบบ</button>
+</form>
 <a href="insert_form.php">เพิ่มภาพยนต์</a>
 <table style="width:100%" border="1">
   <tr>
